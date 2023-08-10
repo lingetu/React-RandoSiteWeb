@@ -3,7 +3,7 @@ import RectangleVert from "./RectangleVert";
 
 export default function Page4() {
     return (
-      <div className="relative bg-white w-full h-[832px] overflow-hidden text-left text-51xl text-olivedrab font-jomhuria">
+      <div className=" font-extrabold relative bg-white w-full h-[832px] overflow-hidden text-left text-51xl text-olivedrab font-jomhuria">
       <div className="absolute top-[72px] left-[98px] inline-block w-[814px] h-[69px] text-4xl">
         Notre seconde randonné (Normal)
       </div>

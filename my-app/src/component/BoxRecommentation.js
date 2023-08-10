@@ -8,7 +8,7 @@ export default function BoxRecommendation() {
         alt=""
         src="/bookopensvgrepocom-1-1@2x.png"
       />
-      <div className="self-stretch relative mt-[-26px]">
+      <div className="self-stretch relative mt-[-26px] text-olivedrab font-jomhuria font-extrabold">
         <p className="m-0">Nos recommendations</p>
       </div>
     </div>

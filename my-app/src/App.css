@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.text-olivedrab {
+  --tw-text-opacity: 1;
+  color: rgb(67 118 3 / var(--tw-text-opacity));
+}
+.text-yellowgreen {
+  --tw-text-opacity: 1;
+  color: rgb(96 169 4 / var(--tw-text-opacity));
+}

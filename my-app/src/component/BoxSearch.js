@@ -9,7 +9,7 @@ export default function BoxSearch() {
         src="/searchlocationsolidsvgrepocom-1@2x.png"
       />
       
-      <div className="relative inline-block w-[334px] h-[52px] shrink-0">
+      <div className="relative inline-block w-[334px] h-[52px] shrink-0 font-extrabold text-olivedrab font-jomhuria">
         <p className="m-0">Recherche</p>
         <p className="m-0">&nbsp;</p>
       </div>
