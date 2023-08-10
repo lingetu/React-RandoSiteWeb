@@ -22,6 +22,11 @@ export default function Page2() {
         src="/pexelsphoto7624986-1@2x.png"
       />
       <RectangleVert />
+      <img
+          className="absolute top-[0px] left-[0px] w-[100%] h-[572px] object-cover opacity-[0.8]"
+          alt=""
+          src="/8vert.svg"
+        />
     </div>
     
     );
