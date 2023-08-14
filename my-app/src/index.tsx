@@ -7,9 +7,12 @@ import './App.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
+  
 );
 root.render(
+
   <React.StrictMode>
+     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <App />
   </React.StrictMode>
 );

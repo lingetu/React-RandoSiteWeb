@@ -45,3 +45,15 @@
   --tw-text-opacity: 1;
   color: rgb(96 169 4 / var(--tw-text-opacity));
 }
+
+.map-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  border: green;
+  border-style: solid;
+  border-width: 5px;
+
+}
