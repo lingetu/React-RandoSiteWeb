@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.16.2"
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "google-maps-react": "^2.0.6"
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import RectangleVert from "./RectangleVert";
 import MapJS from "./Map";
+// import HikeMap from "./maptest";
 
 
 export default function Page6() {
