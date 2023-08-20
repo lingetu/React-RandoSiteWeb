@@ -71,6 +71,13 @@ function Map() {
           map.setZoom(9); // You can adjust the zoom level as needed
         }
       }, [map, selectedHike]);
+
+
+      const handleInfoWindowClose = () => {
+        setSelectedHike(null);
+        map.panTo(center);
+        map.setZoom(7);
+      };
    
     return <GoogleMap zoom={7} center={center} mapContainerClassName="map-container" options={mapOptions} onLoad={onMapLoad}>
         { hikesData && hikesData.map((hike) => (
@@ -92,6 +99,7 @@ function Map() {
             // }
             >
                 {selectedHike === hike && hikesData && <InfoWindowF
+                onCloseClick={handleInfoWindowClose}
                 position={{
                     lat: hike.latitude,
                     lng: hike.longitude
@@ -99,8 +107,10 @@ function Map() {
                 <div>
                     <p>{hike.nom}</p>
                     <p>{hike.description}</p>
-                    <p>{hike.difficulty}</p>
-                    <p>{hike.recompense}</p>
+                    <p>difficulte :{hike.difficulte}</p>
+                    <p> characteristique geographie :{hike.characteristique_geographie}</p>
+                    <p>Enfant : {hike.enfant_friendly}</p>
+                    <p>Denivelé : {hike.denivele}</p>
                 </div>
                 </InfoWindowF>}
             </MarkerF>
