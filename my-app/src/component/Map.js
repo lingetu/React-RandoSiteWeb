@@ -109,7 +109,7 @@ function Map() {
                     <p>{hike.description}</p>
                     <p>difficulte :{hike.difficulte}</p>
                     <p> characteristique geographie :{hike.characteristique_geographie}</p>
-                    <p>Enfant : {hike.enfant_friendly}</p>
+                    <p>{hike.enfant_friendly===true && <p>Enfant :  Vrai</p>}{hike.enfant_friendly===false && <p>Enfant :  faux</p>}</p>
                     <p>Denivelé : {hike.denivele}</p>
                 </div>
                 </InfoWindowF>}
